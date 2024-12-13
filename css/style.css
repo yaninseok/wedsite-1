@@ -1,0 +1,118 @@
+@charset "utf-8";
+@import "https://unpkg.com/ress/dist/ress.min.css";
+/*****************************
+*COMMON
+*****************************/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #C3FF9E;
+    color: #212121;
+}
+
+main{
+    width: 1000px;
+    margin: 80px auto;
+    padding: 80px;
+    background: #fff;
+}
+
+
+
+/*****************************
+* 제목
+*****************************/
+h2{
+    font-size: 24px;
+    padding: 16px 0 ;
+    border-top: 2px solid #79EC6C;
+    border-bottom: 2px solid #79EC6C;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #017B24;
+}
+h3{
+    font-size: 20px;
+    padding: 4px 0 4px 16px;
+    border-left: 8px solid #212121;
+    margin-bottom: 20px;
+}
+
+/*****************************
+* contents
+*****************************/
+.contents-area{
+    display: flex;
+    gap: 40px;
+}
+
+.left-area,
+.right-area{
+    width: 400px;
+}
+
+.contents{
+    padding-left: 24px;
+    margin-bottom: 20px;
+}
+.valo{
+    width: 140px;
+    height: 100px;
+    margin-left: 50px;
+}
+.youtube{
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+}
+.seoul{
+    width:300px;
+    height: 220px;
+}
+
+
+/*****************************
+* section#profile
+*****************************/
+#profile{
+    margin-bottom: 80px;
+}
+#profile img{
+    display: block;
+    margin: auto;
+   
+}
+.profilephoto{
+    border-radius: 70%;
+}
+.my-name{
+    font-size: 24px;
+    text-align: center;
+    margin: 40px 0;
+}
+.my-name rt {
+    margin-bottom: 4px;
+}
+.my-intro{
+    width: 560px;
+    margin: 0 auto 40px;
+}
+
+
+
+
+
+/*****************************
+*
+*****************************/
+
+
+
+
+
+
+/*****************************
+*
+*****************************/
